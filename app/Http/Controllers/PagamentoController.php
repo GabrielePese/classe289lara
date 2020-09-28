@@ -31,6 +31,7 @@ class PagamentoController extends Controller{
         $pagamento -> update ($data);
 
         return redirect() -> route('pagamenti-index');
+        
 
     }
 }
